@@ -1,0 +1,18 @@
+Ahmad:
+  city: San Francisco
+  title: Ahmad' Home
+  avatar: ahmad.png
+  description: Ahmad's Penthouse Suite
+  background_image: images/card-brussels.jpeg
+Ben:
+  city: Paris
+  title: Ben's house
+  avatar: ben.png
+  description: Ben's Villa
+  background_image: images/card-london.jpeg
+Athmane:
+  city: Paris
+  title: Athmane's Home
+  avatar: athmane.png
+  description: Athmane's club
+  background_image: images/card-paris.jpg
