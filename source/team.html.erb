@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Le Wagon Team
+  </title>
+</head>
+<body>
+  <div class="team-member text-center padded">
+    <h1>Unser Team</h1>
+    <ul class="list-inline text-center">
+      <% data.team.each do |member| %>
+        <li>
+          <%= image_tag member.image, class: "avatar-large" %>
+          <h3><%= member.name.capitalize %></h3>
+        </li>
+      <% end %>
+    </ul>
+    <%= link_to "contact@lewagon.com", "mailto:contact@lewagon.com",  class:"text-center"%>
+  </div>
+</body>
+</html>
